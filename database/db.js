@@ -1,7 +1,8 @@
 import { Sequelize } from "sequelize";
 
-const db = new Sequelize('blog_app', 'root', 'root',{
-    host: 'localhost',
+
+const db = new Sequelize('blog_app', 'admin', 'admin123',{
+    host: 'bd-practica.cxz6y94yupxo.us-east-1.rds.amazonaws.com',
     dialect: 'mysql'
 })
 
